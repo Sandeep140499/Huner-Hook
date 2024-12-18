@@ -1,0 +1,16 @@
+{
+  "title": "Personalized Crochet Creations",
+  "text": "Personalized crochet creations are unique, custom-made items crafted through crochet techniques, often tailored to suit specific preferences, designs, or requests. These creations can range from accessories, clothing, home décor, to toys, and they offer a special touch due to their individualized nature",
+  "section": [
+    {
+      "title": "Techniques for Personalization?",
+      "content": "Techniques for personalization include color work embroidery and crochet letters/numbers.",
+      "imageUrl": "/img/about2.png"  
+    },
+    {
+      "title": "Benefits of Personalized Crochet Creations?",
+      "content": "Personalized crochet creations are unique, meaningful, and durable, made with care for special occasions and long-lasting use.",
+      "imageUrl": "/img/about3.png" 
+    }
+  ]
+}
