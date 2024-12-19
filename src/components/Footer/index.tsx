@@ -20,6 +20,7 @@ import {
   // LanguageSwitch,
   LanguageSwitchContainer,
   FooterContainer,
+  LanguageSwitch,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -90,22 +91,23 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
-                {/* <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch> */}
+              <LanguageSwitch onClick={() => handleChange("en")}>
+  <SvgIcon
+    src="united-states.svg"
+    aria-label="homepage"
+    width="30px"
+    height="30px"
+  />
+</LanguageSwitch>
+<LanguageSwitch onClick={() => handleChange("es")}>
+  <SvgIcon
+    src="spain.svg"
+    aria-label="homepage"
+    width="30px"
+    height="30px"
+  />
+</LanguageSwitch>
+
                 <p>English</p>
                 &nbsp;
                 <p>Hindi</p>
