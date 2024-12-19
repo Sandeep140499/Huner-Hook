@@ -4,7 +4,7 @@ import { withTranslation } from "react-i18next";
 
 import { ContentBlockProps } from "./types";
 import { Button } from "../../common/Button";
-import { SvgIcon } from "../../common/SvgIcon"; // This may be optional if you're directly using image tags now.
+// import { SvgIcon } from "../../common/SvgIcon"; // This may be optional if you're directly using image tags now.
 import {
   ContentSection,
   Content,

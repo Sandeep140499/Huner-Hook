@@ -14,10 +14,10 @@ import {
   Large,
   Chat,
   Empty,
-  FooterContainer,
+  // FooterContainer,
   Language,
   Label,
-  LanguageSwitch,
+  // LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
 
